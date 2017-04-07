@@ -13,6 +13,7 @@ int main(int argc, char **argv) {
     }
  
     long pos, max = 0xFF << 1;
+    printf("Fill %ld to %ld\n", pos, max);
  
     // get file size
     pos = ftell( fp );
